@@ -1080,3 +1080,5 @@ movies['rating'] = pd.Categorical(movies['rating'], ['NR', 'G','PG','PG-13','R']
 # Using get_dummies() function to create a new binary variable for each categories within our original variable
 # Useful when managing nominal variables because it encodes the variables without creating an order among the categories
 cereal = pd.get_dummies(data=cereal, columns=['mfr'])
+
+# Test Update
