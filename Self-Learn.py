@@ -1082,3 +1082,4 @@ movies['rating'] = pd.Categorical(movies['rating'], ['NR', 'G','PG','PG-13','R']
 cereal = pd.get_dummies(data=cereal, columns=['mfr'])
 
 # Test Update
+# Test Update 2
